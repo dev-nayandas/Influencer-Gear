@@ -22,7 +22,7 @@ padding: 40px;}
     padding: 10px 20px;
     background-color: rgb(44, 206, 235);
     color: white);
-    border-radius: 20px
+    border-radius: 20px;
 }
 
 .p-products{
@@ -35,14 +35,17 @@ padding: 40px;}
     grid-template-columns: repeat(3, 1fr);
     padding: 40px;
 }
-.see-more-btn{
+.see-more{
     text-decoration: none;
-    text-align:right;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    text-align: right;
+    text-decoration: none;
+    color: burlywood;
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
 .fas{
     color: rgb(185, 102, 88);
+    margin-left: 10px;
 }
 .items{
     width: 50%;
