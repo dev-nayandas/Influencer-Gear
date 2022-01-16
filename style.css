@@ -1,11 +1,18 @@
+/* body defaults */
+
 body{
     font-family: 'Oswald', sans-serif;
     margin: 0 auto;
 }
+/* brand name design */
+
+
 .brand-name{font-family: 'Oswald', sans-serif;
     padding: 40px;
 font-size: 30px;
 margin-left: 30px;}
+
+/* top product design */
 
 .top-product{display: flex;
 align-items: center;
@@ -66,4 +73,29 @@ padding: 40px;}
     color: rgb(185, 102, 88);
     padding: 10px;
     font-size: 25px;
+}
+/* media queries */
+@media only screen and (max-width:688px) {
+    .brand-name{
+        text-align: center;
+    }
+    .top-product {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        padding: 10px;
+        width: 650px;
+        overflow: hidden;
+    }
+    .product-info h2{
+        font-size: 20px;
+    }
+    .product-info p{
+        font-size: 14px;
+        width:650px ;
+        overflow:hidden;
+    }
+    .products{
+        display: inline-block;
+        grid-template-columns: repeat(1 ifr);
+    }
 }
